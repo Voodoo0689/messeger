@@ -1,0 +1,415 @@
+2022-01-09 20:35:05,225 
+INFO 
+server.py 
+задан стандартный порт для "прослушивания" 7777
+2022-01-09 20:35:05,228 
+INFO 
+server.py 
+задан стандартный адрес для "прослушивания" 127.0.0.1
+2022-01-09 20:35:05,316 
+DEBUG 
+server.py 
+Была вызвана функция get_args
+ c параметрами (), {}.Вызов из модуля __main__.
+ Вызов изфункции main().
+ Вызов из функции main
+2022-01-09 20:40:29,260 
+INFO 
+server.py 
+задан стандартный порт для "прослушивания" 7777
+2022-01-09 20:40:29,261 
+INFO 
+server.py 
+задан стандартный адрес для "прослушивания" 127.0.0.1
+2022-01-09 20:40:29,354 
+DEBUG 
+server.py 
+Была вызвана функция get_args
+ c параметрами (), {}.Вызов из модуля __main__.
+ Вызов изфункции main().
+ Вызов из функции main
+2022-01-09 20:40:29,413 
+INFO 
+server.py 
+Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-01-09 20:40:29,872 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50091)
+2022-01-09 20:40:29,872 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50090)
+2022-01-09 20:40:29,874 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50092)
+2022-01-09 20:40:29,898 
+DEBUG 
+server.py 
+Была вызвана функция get_message
+ c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>,), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 20:40:29,899 
+DEBUG 
+server.py 
+Разбор сообщения от клиента : {'ACTION': 'PRESENCE', 'TIME': 1641750029.87237, 'USER': {'ACCOUNT_NAME': 'test3'}}
+2022-01-09 20:40:29,929 
+DEBUG 
+server.py 
+Была вызвана функция send_message
+ c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, {'RESPONSE': 200}), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции get_client_message
+2022-01-09 20:40:29,931 
+DEBUG 
+server.py 
+Была вызвана функция get_client_message
+ c параметрами (<Server(Thread-1, started daemon 8260)>, {'ACTION': 'PRESENCE', 'TIME': 1641750029.87237, 'USER': {'ACCOUNT_NAME': 'test3'}}, [], <socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, [<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, <socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>, <socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>], {'test3': <socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>}), {}.Вызов из модуля __main__.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 20:40:29,933 
+DEBUG 
+server.py 
+Была вызвана функция get_message
+ c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>,), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 20:40:29,933 
+DEBUG 
+server.py 
+Разбор сообщения от клиента : {'ACTION': 'PRESENCE', 'TIME': 1641750029.87237, 'USER': {'ACCOUNT_NAME': 'test1'}}
+2022-01-09 20:40:29,961 
+DEBUG 
+server.py 
+Была вызвана функция send_message
+ c параметрами (<socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>, {'RESPONSE': 200}), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции get_client_message
+2022-01-09 20:40:29,963 
+DEBUG 
+server.py 
+Была вызвана функция get_client_message
+ c параметрами (<Server(Thread-1, started daemon 8260)>, {'ACTION': 'PRESENCE', 'TIME': 1641750029.87237, 'USER': {'ACCOUNT_NAME': 'test1'}}, [], <socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>, [<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, <socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>, <socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>], {'test3': <socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, 'test1': <socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>}), {}.Вызов из модуля __main__.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 20:40:29,965 
+DEBUG 
+server.py 
+Была вызвана функция get_message
+ c параметрами (<socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>,), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 20:40:29,965 
+DEBUG 
+server.py 
+Разбор сообщения от клиента : {'ACTION': 'PRESENCE', 'TIME': 1641750029.87237, 'USER': {'ACCOUNT_NAME': 'test2'}}
+2022-01-09 20:40:29,993 
+DEBUG 
+server.py 
+Была вызвана функция send_message
+ c параметрами (<socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>, {'RESPONSE': 200}), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции get_client_message
+2022-01-09 20:40:29,995 
+DEBUG 
+server.py 
+Была вызвана функция get_client_message
+ c параметрами (<Server(Thread-1, started daemon 8260)>, {'ACTION': 'PRESENCE', 'TIME': 1641750029.87237, 'USER': {'ACCOUNT_NAME': 'test2'}}, [], <socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>, [<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, <socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>, <socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>], {'test3': <socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, 'test1': <socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>, 'test2': <socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>}), {}.Вызов из модуля __main__.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 20:40:44,266 
+DEBUG 
+server.py 
+Была вызвана функция get_message
+ c параметрами (<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>,), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 20:40:44,267 
+DEBUG 
+server.py 
+Разбор сообщения от клиента : {'ACTION': 'MESSAGE', 'SENDER': 'test3', 'DESTINATION': 'ihyui', 'TIME': 1641750043.7648258, 'MESSAGE_TEXT': 'ip'}
+2022-01-09 20:40:44,273 
+DEBUG 
+server.py 
+Была вызвана функция get_client_message
+ c параметрами (<Server(Thread-1, started daemon 8260)>, {'ACTION': 'MESSAGE', 'SENDER': 'test3', 'DESTINATION': 'ihyui', 'TIME': 1641750043.7648258, 'MESSAGE_TEXT': 'ip'}, [{'ACTION': 'MESSAGE', 'SENDER': 'test3', 'DESTINATION': 'ihyui', 'TIME': 1641750043.7648258, 'MESSAGE_TEXT': 'ip'}], <socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, [<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, <socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>, <socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>], {'test3': <socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, 'test1': <socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>, 'test2': <socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>}), {}.Вызов из модуля __main__.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 20:40:44,274 
+ERROR 
+server.py 
+Пользователь ihyui не зарегистрирован на сервере, отправка сообщения невозможна.
+2022-01-09 20:40:44,278 
+DEBUG 
+server.py 
+Была вызвана функция address_message
+ c параметрами (<Server(Thread-1, started daemon 8260)>, {'ACTION': 'MESSAGE', 'SENDER': 'test3', 'DESTINATION': 'ihyui', 'TIME': 1641750043.7648258, 'MESSAGE_TEXT': 'ip'}, {'test3': <socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, 'test1': <socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>, 'test2': <socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>}, [<socket.socket fd=1308, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50091)>, <socket.socket fd=1312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50090)>, <socket.socket fd=1316, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50092)>]), {}.Вызов из модуля __main__.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 20:54:06,320 
+INFO 
+server.py 
+задан стандартный порт для "прослушивания" 7777
+2022-01-09 20:54:06,321 
+INFO 
+server.py 
+задан стандартный адрес для "прослушивания" 127.0.0.1
+2022-01-09 20:54:06,405 
+DEBUG 
+server.py 
+Была вызвана функция get_args
+ c параметрами (), {}.Вызов из модуля __main__.
+ Вызов изфункции main().
+ Вызов из функции main
+2022-01-09 20:54:06,468 
+INFO 
+server.py 
+Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-01-09 21:00:00,287 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50113)
+2022-01-09 21:00:00,803 
+INFO 
+server.py 
+Клиент ('127.0.0.1', 50113) отключился от сервера.
+2022-01-09 21:00:52,219 
+INFO 
+server.py 
+задан стандартный порт для "прослушивания" 7777
+2022-01-09 21:00:52,220 
+INFO 
+server.py 
+задан стандартный адрес для "прослушивания" 127.0.0.1
+2022-01-09 21:00:52,312 
+DEBUG 
+server.py 
+Была вызвана функция get_args
+ c параметрами (), {}.Вызов из модуля __main__.
+ Вызов изфункции main().
+ Вызов из функции main
+2022-01-09 21:00:52,381 
+INFO 
+server.py 
+Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-01-09 21:00:52,385 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50116)
+2022-01-09 21:00:52,871 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50115)
+2022-01-09 21:00:52,877 
+DEBUG 
+server.py 
+Была вызвана функция get_message
+ c параметрами (<socket.socket fd=740, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50116)>,), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 21:00:52,878 
+DEBUG 
+server.py 
+Разбор сообщения от клиента : {'action': 'presence', 'time': 1641751252.3859324, 'user': {'account_name': 'test3'}}
+2022-01-09 21:00:52,883 
+DEBUG 
+server.py 
+Была вызвана функция send_message
+ c параметрами (<socket.socket fd=740, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50116)>, {'RESPONSE': 400, 'ERROR': 'Запрос некорректен.'}), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции get_client_message
+2022-01-09 21:00:52,887 
+DEBUG 
+server.py 
+Была вызвана функция get_client_message
+ c параметрами (<Server(Thread-1, started daemon 7572)>, {'action': 'presence', 'time': 1641751252.3859324, 'user': {'account_name': 'test3'}}, [], <socket.socket fd=740, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50116)>, [<socket.socket fd=740, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50116)>, <socket.socket fd=1320, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50115)>], {}), {}.Вызов из модуля __main__.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 21:00:52,892 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50114)
+2022-01-09 21:00:52,893 
+INFO 
+server.py 
+Клиент ('127.0.0.1', 50116) отключился от сервера.
+2022-01-09 21:00:53,397 
+INFO 
+server.py 
+Клиент ('127.0.0.1', 50115) отключился от сервера.
+2022-01-09 21:00:53,398 
+INFO 
+server.py 
+Клиент ('127.0.0.1', 50114) отключился от сервера.
+2022-01-09 21:01:08,766 
+INFO 
+server.py 
+задан стандартный порт для "прослушивания" 7777
+2022-01-09 21:01:08,767 
+INFO 
+server.py 
+задан стандартный адрес для "прослушивания" 127.0.0.1
+2022-01-09 21:01:08,852 
+DEBUG 
+server.py 
+Была вызвана функция get_args
+ c параметрами (), {}.Вызов из модуля __main__.
+ Вызов изфункции main().
+ Вызов из функции main
+2022-01-09 21:01:08,912 
+INFO 
+server.py 
+Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-01-09 21:01:08,930 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50117)
+2022-01-09 21:01:08,930 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50119)
+2022-01-09 21:01:09,264 
+DEBUG 
+server.py 
+Была вызвана функция get_message
+ c параметрами (<socket.socket fd=912, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50117)>,), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 21:01:09,264 
+DEBUG 
+server.py 
+Разбор сообщения от клиента : {'action': 'presence', 'time': 1641751268.9305604, 'user': {'account_name': 'test3'}}
+2022-01-09 21:01:09,268 
+DEBUG 
+server.py 
+Была вызвана функция send_message
+ c параметрами (<socket.socket fd=912, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50117)>, {'RESPONSE': 400, 'ERROR': 'Запрос некорректен.'}), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции get_client_message
+2022-01-09 21:01:09,283 
+DEBUG 
+server.py 
+Была вызвана функция get_client_message
+ c параметрами (<Server(Thread-1, started daemon 3096)>, {'action': 'presence', 'time': 1641751268.9305604, 'user': {'account_name': 'test3'}}, [], <socket.socket fd=912, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50117)>, [<socket.socket fd=912, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50117)>, <socket.socket fd=136, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50119)>], {}), {}.Вызов из модуля __main__.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 21:01:09,285 
+DEBUG 
+server.py 
+Была вызвана функция get_message
+ c параметрами (<socket.socket fd=136, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50119)>,), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 21:01:09,285 
+DEBUG 
+server.py 
+Разбор сообщения от клиента : {'action': 'presence', 'time': 1641751268.9305604, 'user': {'account_name': 'test1'}}
+2022-01-09 21:01:09,288 
+DEBUG 
+server.py 
+Была вызвана функция send_message
+ c параметрами (<socket.socket fd=136, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50119)>, {'RESPONSE': 400, 'ERROR': 'Запрос некорректен.'}), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции get_client_message
+2022-01-09 21:01:09,290 
+DEBUG 
+server.py 
+Была вызвана функция get_client_message
+ c параметрами (<Server(Thread-1, started daemon 3096)>, {'action': 'presence', 'time': 1641751268.9305604, 'user': {'account_name': 'test1'}}, [], <socket.socket fd=136, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50119)>, [<socket.socket fd=912, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50117)>, <socket.socket fd=136, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50119)>], {}), {}.Вызов из модуля __main__.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 21:01:09,290 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50118)
+2022-01-09 21:01:09,291 
+INFO 
+server.py 
+Клиент ('127.0.0.1', 50117) отключился от сервера.
+2022-01-09 21:01:09,291 
+INFO 
+server.py 
+Клиент ('127.0.0.1', 50119) отключился от сервера.
+2022-01-09 21:01:09,293 
+DEBUG 
+server.py 
+Была вызвана функция get_message
+ c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50118)>,), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 21:01:09,294 
+DEBUG 
+server.py 
+Разбор сообщения от клиента : {'action': 'presence', 'time': 1641751268.9305604, 'user': {'account_name': 'test2'}}
+2022-01-09 21:01:09,296 
+DEBUG 
+server.py 
+Была вызвана функция send_message
+ c параметрами (<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50118)>, {'RESPONSE': 400, 'ERROR': 'Запрос некорректен.'}), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции get_client_message
+2022-01-09 21:01:09,301 
+DEBUG 
+server.py 
+Была вызвана функция get_client_message
+ c параметрами (<Server(Thread-1, started daemon 3096)>, {'action': 'presence', 'time': 1641751268.9305604, 'user': {'account_name': 'test2'}}, [], <socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50118)>, [<socket.socket fd=1344, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50118)>], {}), {}.Вызов из модуля __main__.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 21:01:09,809 
+INFO 
+server.py 
+Клиент ('127.0.0.1', 50118) отключился от сервера.
+2022-01-09 21:01:52,509 
+INFO 
+server.py 
+задан стандартный порт для "прослушивания" 7777
+2022-01-09 21:01:52,510 
+INFO 
+server.py 
+задан стандартный адрес для "прослушивания" 127.0.0.1
+2022-01-09 21:01:52,593 
+DEBUG 
+server.py 
+Была вызвана функция get_args
+ c параметрами (), {}.Вызов из модуля __main__.
+ Вызов изфункции main().
+ Вызов из функции main
+2022-01-09 21:01:52,649 
+INFO 
+server.py 
+Запущен сервер, порт для подключений: 7777, адрес с которого принимаются подключения: 127.0.0.1. Если адрес не указан, принимаются соединения с любых адресов.
+2022-01-09 21:02:00,847 
+INFO 
+server.py 
+Установлено соедение с ПК ('127.0.0.1', 50120)
+2022-01-09 21:02:01,354 
+DEBUG 
+server.py 
+Была вызвана функция get_message
+ c параметрами (<socket.socket fd=1296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50120)>,), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 21:02:01,354 
+DEBUG 
+server.py 
+Разбор сообщения от клиента : {'action': 'presence', 'time': 1641751320.8477454, 'user': {'account_name': 'test'}}
+2022-01-09 21:02:01,358 
+DEBUG 
+server.py 
+Была вызвана функция send_message
+ c параметрами (<socket.socket fd=1296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50120)>, {'RESPONSE': 400, 'ERROR': 'Запрос некорректен.'}), {}.Вызов из модуля common.settings.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции get_client_message
+2022-01-09 21:02:01,362 
+DEBUG 
+server.py 
+Была вызвана функция get_client_message
+ c параметрами (<Server(Thread-1, started daemon 1312)>, {'action': 'presence', 'time': 1641751320.8477454, 'user': {'account_name': 'test'}}, [], <socket.socket fd=1296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50120)>, [<socket.socket fd=1296, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50120)>], {}), {}.Вызов из модуля __main__.
+ Вызов изфункции self._bootstrap_inner().
+ Вызов из функции run
+2022-01-09 21:02:01,874 
+INFO 
+server.py 
+Клиент ('127.0.0.1', 50120) отключился от сервера.
